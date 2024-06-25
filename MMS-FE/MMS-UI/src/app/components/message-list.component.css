@@ -1,0 +1,55 @@
+/* Genel stil */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container stil */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stil */
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Tablo stil */
+.message-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.message-table th,
+.message-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.message-table th {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+}
+
+.message-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.message-table tr:hover {
+  background-color: #e9e9e9;
+}
+
+.message-table td {
+  color: #333;
+}
